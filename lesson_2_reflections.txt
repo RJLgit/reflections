@@ -1,0 +1,2 @@
+What happens when you initialize a repository? Why do you need to do it?
+You need to use the git init command to initialize a repository. It will create a .git file which can be checked with the ls -a command. That will store the metadata about your files in the folder.
