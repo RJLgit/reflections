@@ -9,3 +9,9 @@ The staging area is where you put changes ready to be commited. It works by addi
 
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 Branches can be used to organise how when you make big changes that should not be part of the master branch. For example, if you want the files to be in a different language then a new branch for this would be useful as it allows you to switch between this and the master branch when you want. 
+
+How do the diagrams help you visualize the branch structure?
+Diagrams are a good way to see exactly which commits are part of each branch. It also shows the sequences of the commits and importantly shows the reachability of the commits. If you have a commit not on a branch then it might be discarded unless it is made to be a new commit.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+The result is a new commit that continues on one of the branchs by also refers back to the previous commits in each of the branches. In a diagram it is easier to see the relationships between all the commits.
