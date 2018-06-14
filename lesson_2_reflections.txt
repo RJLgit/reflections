@@ -6,3 +6,6 @@ The staging area is where you put files that are ready to be committed. The work
 
 How can you use the staging area to make sure you have one commit per logical change?
 The staging area is where you put changes ready to be commited. It works by adding only the file you wish to add to be commited. That way if two files changed in the repositary then you can just add one to the staging area for the first commit and then the other for the second commit. Hence it keeps the two commits seperate.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+Branches can be used to organise how when you make big changes that should not be part of the master branch. For example, if you want the files to be in a different language then a new branch for this would be useful as it allows you to switch between this and the master branch when you want. 
