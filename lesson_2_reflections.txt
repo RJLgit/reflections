@@ -3,3 +3,6 @@ You need to use the git init command to initialize a repository. It will create 
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 The staging area is where you put files that are ready to be committed. The working directory is the files that you are currently working on in their current state. The repository is just a collection of commits and related files that are commited together.
+
+How can you use the staging area to make sure you have one commit per logical change?
+The staging area is where you put changes ready to be commited. It works by adding only the file you wish to add to be commited. That way if two files changed in the repositary then you can just add one to the staging area for the first commit and then the other for the second commit. Hence it keeps the two commits seperate.
