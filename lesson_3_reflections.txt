@@ -8,3 +8,6 @@ You might use your repositary only for changes you are totally sure on or for ch
 
 Describe the differences between forks, clones, and branches. When would you use one instead of another?
 Forks are an invention of github, and it involves copying a github repositary to your profile on github. Clones are where you copy a repositary from somewhere to somewhere else, either locally or between a remote and local location. Branches are where you create a new commit branch to allow different changes to a repositary.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+It allows you to see where you are out of sync with this remote state. It also allows you to compare between the two states and to merge them whilst resolving the conflict. Lastly, it allows you to work on a remote version whilst offline.
