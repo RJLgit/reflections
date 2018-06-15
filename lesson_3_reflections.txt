@@ -5,3 +5,6 @@ share your work and updates with other people for feedback.
 
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 You might use your repositary only for changes you are totally sure on or for changes which you are not sure on. This might not match with how you want your local git repositary updated. Manually doing it will give more control to the user.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+Forks are an invention of github, and it involves copying a github repositary to your profile on github. Clones are where you copy a repositary from somewhere to somewhere else, either locally or between a remote and local location. Branches are where you create a new commit branch to allow different changes to a repositary.
