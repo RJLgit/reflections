@@ -11,3 +11,6 @@ Forks are an invention of github, and it involves copying a github repositary to
 
 What is the benefit of having a copy of the last known state of the remote stored locally?
 It allows you to see where you are out of sync with this remote state. It also allows you to compare between the two states and to merge them whilst resolving the conflict. Lastly, it allows you to work on a remote version whilst offline.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+It would be much harder to both work on the same file and then merge those changes together to get the best of both worlds. Without github it would be harder to share the files that you are working on. It is also easier to see the changes people make by looking at the difference between commits. 
